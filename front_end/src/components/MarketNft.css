@@ -1,0 +1,8 @@
+.Inside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 110px;
+    margin-left: 80px;
+    padding-top: 30px;
+}

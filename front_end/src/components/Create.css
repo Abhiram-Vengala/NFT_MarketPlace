@@ -1,0 +1,69 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 33%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    gap: 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  #img {
+    padding: 0;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    color: #f00;
+    text-align: center;
+  }
+  
+  #list {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

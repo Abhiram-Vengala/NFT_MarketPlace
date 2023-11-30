@@ -1,0 +1,56 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Allerta Stencil';
+  background-color: white;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-family: fantasy;
+  font-size: 35px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #d95790,#3280dd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.middle a {
+  text-decoration: none;
+  color: #f5009f;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-clip: border-box,padding-box;
+  border: 2px solid #f5009f;
+}
+
+.middle a:hover {
+  background-color: #f5009f;
+  color: white;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #d95790,#3280dd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+}

@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.tile{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow:0px 6px 20px 0px #d95790;
+}
+#text{
+    font-size: large;
+    font-family: Jazz LET, fantasy;
+    font-size: 1.5em;
+    background: linear-gradient(to right, #d95790,#3280dd);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+#textone{
+    color: black;
+    font-family: didot , serif;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-size: 1.2em;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom-left-radius: 10px;
+}
+.link{
+    text-decoration: none;
+}
+#images{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
